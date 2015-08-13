@@ -5,7 +5,7 @@ appInfos plugin allows you to get some informations about the app, like its vers
 
 ##How to use
 
-* import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Using-plugins)
+* import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage)
 * Add the cobalt.appInfos.js to your web JS folder
 * Add an html link to the cobalt.appInfos.js plugin script after the cobalt link in the HEAD tag
 
