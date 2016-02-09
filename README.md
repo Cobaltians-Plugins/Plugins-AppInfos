@@ -21,9 +21,10 @@ Current full returned object is :
 
     {
         versionName : "1.5.2" //the public verbose version number of the app.
-        versionCode : 4, //the build number of the app (for app submissions).
+        versionCode : 4, //the build number of the app (for app submissions)
+        deviceID : "645EAC64-[...]0F5", // a unique id you can use to identifiy this app user on this device (for push notifications or so
+        lang : 'en-US' // the device current language
     }
-
 
 
 ##Planned features
