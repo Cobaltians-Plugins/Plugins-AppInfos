@@ -13,17 +13,27 @@ use the cobalt.getAppInfos shortcut like this
 
     //somewhere after cobalt inited
     cobalt.getAppInfos(function(infos){
-        //You received infos. It contains 'versionCode', 'versionNumber', and so on.
+        //You received device infos.
         cobalt.log('app version is :', infos.versionNumber)
     });
 
-Current full returned object is :
+Current full returned fields are :
+
+| field | type | description |
+| ----- | ---- | ----------- |
+| versionName | string     | the public verbose version number of the app. |
+| versionCode | number     | the build number of the app (for app submissions). |
+| deviceID | string     | a unique id you can use to identifiy this app user on this device (for push notifications or so) |
+| lang | string     | the device current language. |
+
+
+Sample : 
 
     {
-        versionName : "1.5.2" //the public verbose version number of the app.
-        versionCode : 4, //the build number of the app (for app submissions)
-        deviceID : "645EAC64-[...]0F5", // a unique id you can use to identifiy this app user on this device (for push notifications or so
-        lang : 'en-US' // the device current language
+        versionName : "1.5.2",
+        versionCode : 4,
+        deviceID : "645EAC64-[...]0F5",
+        lang : 'en-US'
     }
 
 
