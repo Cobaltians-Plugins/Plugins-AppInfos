@@ -1,9 +1,9 @@
-#appInfos
+# appInfos
 
 appInfos plugin allows you to get some informations about the app, like its version number.
 
 
-##How to use
+## How to use
 
 * import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage)
 * Add the cobalt.appInfos.js to your web JS folder
@@ -37,7 +37,7 @@ Sample :
     }
 
 
-##Planned features
+## Planned features
 
  * appName ?
  * other ideas ? propose yours in the issues tracker
